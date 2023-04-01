@@ -24,11 +24,11 @@
 
     default_layer {
       bindings = <
-        &kp EQUAL &kp N1       &kp N2        &kp N3    &kp N4     &kp N5 &tog 1                                                                                          &mo 3 &kp N6 &kp N7    &kp N8     &kp N9        &kp N0       &kp MINUS
-        &kp ESC   &kp Q        &kp W         &kp E     &kp R      &kp T  &kp DELETE                                                                                           &none &kp Y  &kp U     &kp I      &kp O         &kp P        &kp BSLH
-        &kp TAB   &kp A        &kp S         &kp D     &kp F      &kp G  &kp RALT                &kp LGUI       &kp LALT      &none &none &kp LALT  &kp LGUI                    &none &kp H  &kp J     &kp K      &kp L         &kp SEMI     &kp SQT
-        &kp LSHFT &kp Z        &kp X         &kp C     &kp V      &kp B         &none         &none          &kp LCTRL     &none &none &kp LCTRL &none        &none                 &kp N  &kp M     &kp COMMA  &kp DOT       &kp FSLH     &kp RSHFT
-        &kp LCTRL &kp LG(LALT) &kp LG(LSHFT) &kp LG(C) &kp LG(V)                &mt LGUI BSPC &lt 1 ENTER    &kp BACKSPACE              &kp TAB   &lt 2 ENTER &mt LALT SPACE               &kp LG(Z) &kp LG(X)  &kp LG(LSHFT) &kp LG(LALT) &kp LCTRL
+        &kp EQUAL &kp N1       &kp N2        &kp N3    &kp N4     &kp N5 &tog 1                                                                                              &mo 3 &kp N6 &kp N7    &kp N8     &kp N9        &kp N0       &kp MINUS
+        &kp ESC   &kp Q        &kp W         &kp E     &kp R      &kp T  &kp DELETE                                                                                          &none &kp Y  &kp U     &kp I      &kp O         &kp P        &kp BSLH
+        &kp TAB   &kp A        &kp S         &kp D     &kp F      &kp G  &kp RALT             &kp BSPC       &kp LALT      &none &none &kp LALT  &kp LGUI                    &none &kp H  &kp J     &kp K      &kp L         &kp SEMI     &kp SQT
+        &kp LSHFT &kp Z        &kp X         &kp C     &kp V      &kp B         &none         &none          &kp LCTRL     &none &none &kp LCTRL &none        &none                &kp N  &kp M     &kp COMMA  &kp DOT       &kp FSLH     &kp RSHFT
+        &kp LCTRL &kp LG(LALT) &kp LG(LSHFT) &kp LG(C) &kp LG(V)                &mt LGUI BSPC &lt 1 ENTER    &kp TAB                   &kp TAB   &lt 2 ENTER  &mt LALT SPACE              &kp LG(Z) &kp LG(X)  &kp LG(LSHFT) &kp LG(LALT) &kp LCTRL
       >;
     };
     layer_1 {
